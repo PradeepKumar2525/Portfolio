@@ -199,37 +199,61 @@ table td {
 	float: right;
 }
 
-.skill div {
-	width: 100%;
-	float: left;
-	margin-top: 5px;
-	background: #e7e7e7;
-	border-radius: 10px;
+/* General Page Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f4f5;
+    margin: 0;
+    padding: 20px;
 }
 
-.skill div span {
-	background: #f37d1c;
-	height: 5px;
-	float: left;
+h1 {
+    text-align: center;
+    color: #ff6600;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-div[role="progressbar"] {
-	color: #f98b0d;
-	margin-left: 100px;
-	margin-bottom: 20px;
-	width: 100px;
-	;
-	height: 100px;
-	;
-	border-radius: 50%;
+.skills-container {
+    width: 70%;
+    margin: 0 auto;
+}
 
-	place-items: center;
-	display: grid;
+section {
+    margin-bottom: 30px;
+}
 
-	--pgPercentage: var(--value);
-	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
-		conic-gradient(#f19320 calc(var(--pgPercentage) * 1%), #f4930b 0);
+h2 {
+    font-size: 1.8em;
+    color: #444;
+    border-left: 5px solid #ff6600;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
 
+.skills-list {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.8;
+}
+
+.skills-list span {
+    background: #ff6600; /* Orange background */
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.9em;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
