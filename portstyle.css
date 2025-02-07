@@ -208,12 +208,10 @@ body {
 }
 
 h1 {
-    text-align: center;
     color: #ff6600;
     font-size: 2.5em;
     margin-bottom: 40px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
