@@ -25,6 +25,7 @@ html, body
 .width-66 {
 	width: 66%;
 	float: left;
+
 }
 
 /*****MENU SECTION*****/
@@ -58,11 +59,46 @@ nav a {
     padding-right: 50px;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;  /* Ensures items are vertically centered */
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* Adds space between links */
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.resume-btn {
+    margin-left: 20px; /* Adjust spacing from Projects */
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: #cc5500;
+}
+
+
 
 /*****Main BANNER*****/
 .width-50 {
 	float: left;
-	width: 48%;
+	width: 47%;
 }
 .banner-section {
 	width: 100%;
@@ -122,7 +158,7 @@ nav a {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 16px 40px;
+    padding: 12px 26px;
     border-radius: 500px;
     display: inline-block;
     font-weight: 500;
@@ -130,7 +166,8 @@ nav a {
     background-size: 152% 100%;
     background: #fd8d47;
     border: 2px solid #fd7e47;
-    padding-left: 30px;
+    padding-left: 20px;
+	padding-right: 20px;
     padding-top: 20px;
   }
 
@@ -147,7 +184,7 @@ nav a {
 .main-section {
 	width: 100%;
 	float: left;
-	padding: 150px 0px 110px 0px;
+	padding: 150px 0px 150px 0px;
 }
 .width-100 {
 	width: 100%;
@@ -156,6 +193,16 @@ nav a {
 .mt-20 {
 	margin-top: 20px;
 }
+.heading-text_6 {
+	width: 120%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #f77e0c;
+	text-align: center;
+}
+
 .heading-text {
 	width: 100%;
 	float: left;
@@ -164,15 +211,27 @@ nav a {
 	margin-bottom: 50px;
 	color: #f77e0c;
 }
-.about-img {
+
+.header_space{
 	width: 100%;
+	float: left;
+	font-size: 15px;
+	text-align: left;
+	
+}
+.about-img {
+	width: 110%;
 	padding: 0px 50px;
 	margin-top: 20px;
+	padding-left: 0%;
+	margin-right: 30px;
 }
+
 .about-us {
 	width: 100%;
 	float: left;
 	padding: 20px;
+	padding-left: 55px;
 }
 .about-us p {
 	font-size: 16px;
@@ -189,17 +248,23 @@ table td {
 	padding: 5px 0px;
 }
 
-/*****SKILL SECTION*****/
-.skill {
-	margin-top: 30px;
-	font-size: 17px;
+.about-us h2 {
+    font-size: 2.6em;
+    color: #f77e0c;
+    border-left: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+	padding-bottom: 40px;
 }
+
+/*****SKILL SECTION*****/
+
 
 .skill span {
 	float: right;
 }
 
-/* General Page Styling */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f2f4f5;
@@ -211,7 +276,7 @@ h1 {
     color: #ff6600;
     font-size: 2.5em;
     margin-bottom: 40px;
-    font-weight: bold;
+    font-weight: bold;`
     letter-spacing: 1px;
 }
 
@@ -255,8 +320,66 @@ h2 {
 }
 
 
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.projects-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-container h2 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.project h3 {
+    color: #121111; /* Orange color for project titles */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.project a {
+    font-size: 1em;
+    color: #f57c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+    color: #d35400;
+}
+
+
 
 /*CONTACT US SECTION*/
+
 .contact form {
 	width: 66%;
 	margin: 0px auto;
