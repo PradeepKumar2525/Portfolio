@@ -26,7 +26,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - Implemented Top N analysis for best-performing products and customers.
 - Optimized SQL queries for efficient data extraction and real-time reporting.
   
-  Technologies: Power BI, MySQL, SQL Queries, Data Visualization,KPI Metrics, ETL
+  Technologies: Power BI,Salesforce, Data Visualization,KPI Metrics, ETL
 
 **Project 3 - Financial ANalysis**
 - Conducted financial statement analysis, evaluating income statements, balance sheets.
