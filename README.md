@@ -17,8 +17,8 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 **Project 1 - Salesforce Case analytics Dashboard**
 - Designed an Developed an interactive Power BI dashboard for automated case tracking and trend analysis.
 - Created case trend analysis, status-wise distribution, and drill-through navigation for detailed case insights.
-- Implemented real-time data refresh,enabling team members to access, explore, and filter data based on their needs .The system simplifies data extraction, transformation 
-  and visualization, reducing manual effort and enhancing decision-making.
+- Implemented real-time data refresh,enabling team members to access, explore, and filter data based on their needs.
+- The system simplifies data extraction, transformation and visualization, reducing manual effort and enhancing decision-making.
   
   Technologies: Power BI, Salesforce, Data Modeling, DAX, ETL, Real-Time Analytics
 
@@ -32,7 +32,8 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 **Project 3 - Financial ANalysis**
 - Conducted financial statement analysis, evaluating income statements, balance sheets.
 - Analyzed cost structures and profit margins to identify opportunities for cost reduction and operational efficiency.
-- Technologies: Power BI, DAX,Data Visualization, KPI Metrics
+  
+  Technologies: Power BI, DAX,Data Visualization, KPI Metrics
 
 ## 📬 Contact Me
 
