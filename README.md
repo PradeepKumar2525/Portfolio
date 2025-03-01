@@ -37,5 +37,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 ## 📬 Contact Me
 
 📧 Email: pradeepshallur1999@gmail.com
+
 💼 LinkedIn: https://www.linkedin.com/in/pradeepkumar-hallur-5157481a9/
+
 🌐 Portfolio: https://pradeepkumar2525.github.io/Portfolio/
