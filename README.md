@@ -6,7 +6,6 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - Interactive and responsive design
 - Showcases my projects with live demos & GitHub links
 - Contact form for easy communication
-- Dark mode toggle (if applicable)
 - Built using modern web technologies
   
 ## 🛠 Tech Stack
